@@ -1,0 +1,12 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Generated database — rebuild with: python data/generate_data.py
+data/*.duckdb
+data/*.duckdb.wal
+
+# Secrets and OS files
+.env
+.DS_Store
